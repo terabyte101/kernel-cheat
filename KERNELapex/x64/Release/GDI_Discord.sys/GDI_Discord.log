@@ -1,0 +1,43 @@
+﻿E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: каталог Intermediate заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Intermediate.
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  Source.cpp
+D:\project\APEXproject\KERNELapex\Helpers.h(232,3): warning C4312: приведение типов: преобразование из "ULONG" в "PPEB_LDR_DATA32" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(232,3): warning C4312: приведение типов: преобразование из "ULONG" в "PLIST_ENTRY32" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(233,48): warning C4312: приведение типов: преобразование из "ULONG" в "PPEB_LDR_DATA32" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(234,49): warning C4312: приведение типов: преобразование из "ULONG" в "PLIST_ENTRY32" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(236,7): warning C4312: приведение типов: преобразование из "ULONG" в "PWCH" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(237,34): warning C4312: приведение типов: преобразование из "ULONG" в "PVOID" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(396,38): warning C4312: приведение типов: преобразование из "ULONG" в "PUCHAR" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(524,60): warning C4311: приведение типов: усечение указателя из "PUCHAR" в "ULONG"
+D:\project\APEXproject\KERNELapex\Source.cpp(3,70): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\project\APEXproject\KERNELapex\VectorMath.h(33,4): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\VectorMath.h(34,4): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\VectorMath.h(170,15): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\VectorMath.h(170,55): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\GameSDK.h(417,15): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\GameSDK.h(417,73): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\GameSDK.h(417,131): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "powFFFFFFFFFFFFFFFFFFFFFF"
+D:\project\APEXproject\KERNELapex\ESP.h(83,60): warning C4312: приведение типов: преобразование из "int" в "const wchar_t *" большего размера
+D:\project\APEXproject\KERNELapex\Helpers.h(464,1): warning C4312: приведение типов: преобразование из "A" в "PVOID" большего размера
+          with
+          [
+              A=unsigned long
+          ]
+D:\project\APEXproject\KERNELapex\Helpers.h(525): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Read<ULONG,unsigned long>(A)"
+          with
+          [
+              T=ULONG,
+              A=unsigned long
+          ]
+D:\project\APEXproject\KERNELapex\Helpers.h(467,1): warning C4312: приведение типов: преобразование из "A" в "T *" большего размера
+          with
+          [
+              A=unsigned long
+          ]
+          and
+          [
+              T=ULONG
+          ]
+  Создание кода
+  Создание кода завершено
+  GDI_Discord.vcxproj -> D:\project\APEXproject\KERNELapex\x64\Release\Drivera.sys\Drivera.sys
